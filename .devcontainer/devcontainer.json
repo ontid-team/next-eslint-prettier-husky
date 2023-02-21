@@ -1,5 +1,5 @@
 {
-  "name": "TRAVELY-CLIENT",
+  "name": "Project name",
   "build": {
     "dockerfile": "Dockerfile",
     "args": { "VARIANT": "18" }
@@ -11,5 +11,5 @@
   },
   "postCreateCommand": "yarn",
   "shutdownAction": "stopContainer",
-  "remoteUser": "travely"
+  "remoteUser": "ontid"
 }
